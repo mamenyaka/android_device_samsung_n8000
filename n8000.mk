@@ -18,8 +18,6 @@ $(call inherit-product, device/samsung/n80xx-common/n80xx-common.mk)
 
 LOCAL_PATH := device/samsung/n8000
 
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
-
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.ril_class=SamsungExynos4RIL \
