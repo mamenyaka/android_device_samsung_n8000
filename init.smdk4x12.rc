@@ -38,7 +38,7 @@ on post-fs-data
      mkdir /data/media 0775 media_rw media_rw
      chown media_rw media_rw /data/media
      
-     insmod /system/lib/modules/dhd.ko firmware_path=/system/etc/wifi/bcmdhd_sta.bin nvram_path=/system/etc/wifi/nvram_net.txt
+     insmod /system/lib/modules/dhd.ko firmware_path=/system/etc/wifi/bcmdhd_sta.bin nvram_path=/system/etc/wifi/nvram_net.txt_murata
 
 # data/log
     mkdir /data/log 0775 system log
